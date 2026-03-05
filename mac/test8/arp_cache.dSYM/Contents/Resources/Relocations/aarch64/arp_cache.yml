@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     arp_cache
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _demo_arp_pack, symObjAddr: 0x0, symBinAddr: 0x100003DC8, symSize: 0x24 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _demo_arp_pack, symObjAddr: 0x0, symBinAddr: 0x100003DC8, symSize: 0x24 }
+  - { offsetInCU: 0x5A, offset: 0x5A, size: 0x8, addend: 0x0, symName: _demo_arp_types, symObjAddr: 0x24, symBinAddr: 0x100003DEC, symSize: 0x48 }
+  - { offsetInCU: 0xA7, offset: 0xA7, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6C, symBinAddr: 0x100003E34, symSize: 0x80 }
+...

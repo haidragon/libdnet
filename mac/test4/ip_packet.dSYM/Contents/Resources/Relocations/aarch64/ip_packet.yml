@@ -1,0 +1,49 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     ip_packet
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _demo_ip_pack, symObjAddr: 0x0, symBinAddr: 0x1000006A0, symSize: 0x120 }
+  - { offsetInCU: 0x1F0, offset: 0x1F0, size: 0x8, addend: 0x0, symName: _demo_ip_pack, symObjAddr: 0x0, symBinAddr: 0x1000006A0, symSize: 0x120 }
+  - { offsetInCU: 0x324, offset: 0x324, size: 0x8, addend: 0x0, symName: _demo_ip_unpack, symObjAddr: 0x120, symBinAddr: 0x1000007C0, symSize: 0x11C }
+  - { offsetInCU: 0x4E9, offset: 0x4E9, size: 0x8, addend: 0x0, symName: _demo_ip_checksum, symObjAddr: 0x23C, symBinAddr: 0x1000008DC, symSize: 0xA8 }
+  - { offsetInCU: 0x593, offset: 0x593, size: 0x8, addend: 0x0, symName: _demo_ip_protos, symObjAddr: 0x2E4, symBinAddr: 0x100000984, symSize: 0xBC }
+  - { offsetInCU: 0x5A6, offset: 0x5A6, size: 0x8, addend: 0x0, symName: _demo_ip_flags, symObjAddr: 0x3A0, symBinAddr: 0x100000A40, symSize: 0x60 }
+  - { offsetInCU: 0x5B9, offset: 0x5B9, size: 0x8, addend: 0x0, symName: _demo_ip_fragmentation, symObjAddr: 0x400, symBinAddr: 0x100000AA0, symSize: 0x108 }
+  - { offsetInCU: 0x68B, offset: 0x68B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x508, symBinAddr: 0x100000BA8, symSize: 0x1D4 }
+  - { offsetInCU: 0x26, offset: 0x810, size: 0x8, addend: 0x0, symName: _eth_ntop, symObjAddr: 0x0, symBinAddr: 0x100000D7C, symSize: 0x124 }
+  - { offsetInCU: 0x4D, offset: 0x837, size: 0x8, addend: 0x0, symName: _octet2hex, symObjAddr: 0xC38, symBinAddr: 0x100004078, symSize: 0x0 }
+  - { offsetInCU: 0x79, offset: 0x863, size: 0x8, addend: 0x0, symName: _octet2dec, symObjAddr: 0x1438, symBinAddr: 0x100004878, symSize: 0x0 }
+  - { offsetInCU: 0xD7, offset: 0x8C1, size: 0x8, addend: 0x0, symName: _eth_ntop, symObjAddr: 0x0, symBinAddr: 0x100000D7C, symSize: 0x124 }
+  - { offsetInCU: 0x147, offset: 0x931, size: 0x8, addend: 0x0, symName: _eth_ntoa, symObjAddr: 0x124, symBinAddr: 0x100000EA0, symSize: 0x38 }
+  - { offsetInCU: 0x2A2, offset: 0xA8C, size: 0x8, addend: 0x0, symName: _eth_pton, symObjAddr: 0x15C, symBinAddr: 0x100000ED8, symSize: 0x1C0 }
+  - { offsetInCU: 0x307, offset: 0xAF1, size: 0x8, addend: 0x0, symName: _ip_ntop, symObjAddr: 0x31C, symBinAddr: 0x100001098, symSize: 0xD0 }
+  - { offsetInCU: 0x356, offset: 0xB40, size: 0x8, addend: 0x0, symName: _ip_ntoa, symObjAddr: 0x3EC, symBinAddr: 0x100001168, symSize: 0x30 }
+  - { offsetInCU: 0x3A1, offset: 0xB8B, size: 0x8, addend: 0x0, symName: _ip_pton, symObjAddr: 0x41C, symBinAddr: 0x100001198, symSize: 0x138 }
+  - { offsetInCU: 0x499, offset: 0xC83, size: 0x8, addend: 0x0, symName: _ip6_ntop, symObjAddr: 0x554, symBinAddr: 0x1000012D0, symSize: 0x490 }
+  - { offsetInCU: 0x59D, offset: 0xD87, size: 0x8, addend: 0x0, symName: _ip6_ntoa, symObjAddr: 0x9E4, symBinAddr: 0x100001760, symSize: 0x34 }
+  - { offsetInCU: 0x5E8, offset: 0xDD2, size: 0x8, addend: 0x0, symName: _ip6_pton, symObjAddr: 0xA18, symBinAddr: 0x100001794, symSize: 0x220 }
+  - { offsetInCU: 0x26, offset: 0xEE2, size: 0x8, addend: 0x0, symName: _addr_cmp, symObjAddr: 0x0, symBinAddr: 0x1000019B4, symSize: 0xA0 }
+  - { offsetInCU: 0x41, offset: 0xEFD, size: 0x8, addend: 0x0, symName: _addr_ntoa, symObjAddr: 0x920, symBinAddr: 0x1000022D4, symSize: 0x78 }
+  - { offsetInCU: 0x66, offset: 0xF22, size: 0x8, addend: 0x0, symName: _addr_ntoa.p, symObjAddr: 0x5098, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0xF37, size: 0x8, addend: 0x0, symName: _addr_ntoa.buf, symObjAddr: 0x50A0, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x363, offset: 0x121F, size: 0x8, addend: 0x0, symName: _addr_cmp, symObjAddr: 0x0, symBinAddr: 0x1000019B4, symSize: 0xA0 }
+  - { offsetInCU: 0x4F0, offset: 0x13AC, size: 0x8, addend: 0x0, symName: _intf_addr_cmp, symObjAddr: 0xA0, symBinAddr: 0x100001A54, symSize: 0x168 }
+  - { offsetInCU: 0x5FE, offset: 0x14BA, size: 0x8, addend: 0x0, symName: _addr_net, symObjAddr: 0x208, symBinAddr: 0x100001BBC, symSize: 0x160 }
+  - { offsetInCU: 0x6D3, offset: 0x158F, size: 0x8, addend: 0x0, symName: _addr_btom, symObjAddr: 0x368, symBinAddr: 0x100001D1C, symSize: 0xE0 }
+  - { offsetInCU: 0x71D, offset: 0x15D9, size: 0x8, addend: 0x0, symName: _addr_bcast, symObjAddr: 0x448, symBinAddr: 0x100001DFC, symSize: 0xC4 }
+  - { offsetInCU: 0x77F, offset: 0x163B, size: 0x8, addend: 0x0, symName: _addr_ntop, symObjAddr: 0x50C, symBinAddr: 0x100001EC0, symSize: 0xF0 }
+  - { offsetInCU: 0x8F1, offset: 0x17AD, size: 0x8, addend: 0x0, symName: _addr_pton, symObjAddr: 0x5FC, symBinAddr: 0x100001FB0, symSize: 0x274 }
+  - { offsetInCU: 0xAEE, offset: 0x19AA, size: 0x8, addend: 0x0, symName: _addr_mtob, symObjAddr: 0x870, symBinAddr: 0x100002224, symSize: 0xB0 }
+  - { offsetInCU: 0xB3D, offset: 0x19F9, size: 0x8, addend: 0x0, symName: _addr_ntos, symObjAddr: 0x998, symBinAddr: 0x10000234C, symSize: 0xCC }
+  - { offsetInCU: 0xB88, offset: 0x1A44, size: 0x8, addend: 0x0, symName: _addr_ston, symObjAddr: 0xA64, symBinAddr: 0x100002418, symSize: 0xE8 }
+  - { offsetInCU: 0xBD3, offset: 0x1A8F, size: 0x8, addend: 0x0, symName: _addr_btos, symObjAddr: 0xB4C, symBinAddr: 0x100002500, symSize: 0x110 }
+  - { offsetInCU: 0xC8A, offset: 0x1B46, size: 0x8, addend: 0x0, symName: _addr_stob, symObjAddr: 0xC5C, symBinAddr: 0x100002610, symSize: 0xEC }
+  - { offsetInCU: 0x26, offset: 0x1C2D, size: 0x8, addend: 0x0, symName: _ip_add_option, symObjAddr: 0x0, symBinAddr: 0x1000026FC, symSize: 0x170 }
+  - { offsetInCU: 0x3F, offset: 0x1C46, size: 0x8, addend: 0x0, symName: _crc_c, symObjAddr: 0x528, symBinAddr: 0x100002D00, symSize: 0x0 }
+  - { offsetInCU: 0x29B, offset: 0x1EA2, size: 0x8, addend: 0x0, symName: _ip_add_option, symObjAddr: 0x0, symBinAddr: 0x1000026FC, symSize: 0x170 }
+  - { offsetInCU: 0x401, offset: 0x2008, size: 0x8, addend: 0x0, symName: _tcp_checksum, symObjAddr: 0x170, symBinAddr: 0x10000286C, symSize: 0x84 }
+  - { offsetInCU: 0x4B7, offset: 0x20BE, size: 0x8, addend: 0x0, symName: _ip_cksum_add, symObjAddr: 0x1F4, symBinAddr: 0x1000028F0, symSize: 0xF4 }
+  - { offsetInCU: 0x512, offset: 0x2119, size: 0x8, addend: 0x0, symName: _udp_checksum, symObjAddr: 0x2E8, symBinAddr: 0x1000029E4, symSize: 0x7C }
+  - { offsetInCU: 0x5CA, offset: 0x21D1, size: 0x8, addend: 0x0, symName: _icmp_checksum, symObjAddr: 0x364, symBinAddr: 0x100002A60, symSize: 0x38 }
+  - { offsetInCU: 0x6B9, offset: 0x22C0, size: 0x8, addend: 0x0, symName: _ip_checksum, symObjAddr: 0x39C, symBinAddr: 0x100002A98, symSize: 0x178 }
+...
