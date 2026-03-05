@@ -78,7 +78,7 @@
 
 ### 基础案例
 
-#### 19.[ARP 表操作案例](../windows/arp_example%20案例说明.md) - ARP 表查询与管理、获取指定主机的 ARP 信息、网络设备发现
+#### 19.[ARP 表操作案例](../main/windows/arp_example%20案例说明.md) - ARP 表查询与管理、获取指定主机的 ARP 信息、网络设备发现
 
 #### 20. [网络接口信息获取案例](../windows/example%20案例说明.md) - 获取本机网络接口信息、显示 IP 地址、MAC 地址、MTU 等、网络配置管理
 
