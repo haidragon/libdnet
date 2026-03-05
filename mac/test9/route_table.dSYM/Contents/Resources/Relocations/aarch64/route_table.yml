@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     route_table
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _demo_route_types, symObjAddr: 0x0, symBinAddr: 0x100003D68, symSize: 0x30 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _demo_route_types, symObjAddr: 0x0, symBinAddr: 0x100003D68, symSize: 0x30 }
+  - { offsetInCU: 0x54, offset: 0x54, size: 0x8, addend: 0x0, symName: _demo_route_ops, symObjAddr: 0x30, symBinAddr: 0x100003D98, symSize: 0x48 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x78, symBinAddr: 0x100003DE0, symSize: 0x8C }
+...

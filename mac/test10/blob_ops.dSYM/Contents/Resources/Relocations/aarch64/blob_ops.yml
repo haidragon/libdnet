@@ -1,0 +1,40 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     blob_ops
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _demo_blob_create, symObjAddr: 0x0, symBinAddr: 0x100002AA0, symSize: 0x4C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _demo_blob_create, symObjAddr: 0x0, symBinAddr: 0x100002AA0, symSize: 0x4C }
+  - { offsetInCU: 0xF7, offset: 0xF7, size: 0x8, addend: 0x0, symName: _demo_blob_ops, symObjAddr: 0x4C, symBinAddr: 0x100002AEC, symSize: 0x48 }
+  - { offsetInCU: 0x126, offset: 0x126, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x94, symBinAddr: 0x100002B34, symSize: 0x9C }
+  - { offsetInCU: 0x26, offset: 0x1B9, size: 0x8, addend: 0x0, symName: _print_hexl, symObjAddr: 0x0, symBinAddr: 0x100002BD0, symSize: 0x194 }
+  - { offsetInCU: 0x4D, offset: 0x1E0, size: 0x8, addend: 0x0, symName: _blob_printers, symObjAddr: 0x1220, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xFC, offset: 0x28F, size: 0x8, addend: 0x0, symName: _bl_malloc, symObjAddr: 0x1240, symBinAddr: 0x100008020, symSize: 0x0 }
+  - { offsetInCU: 0x13F, offset: 0x2D2, size: 0x8, addend: 0x0, symName: _bl_size, symObjAddr: 0x1248, symBinAddr: 0x100008028, symSize: 0x0 }
+  - { offsetInCU: 0x154, offset: 0x2E7, size: 0x8, addend: 0x0, symName: _bl_free, symObjAddr: 0x1250, symBinAddr: 0x100008030, symSize: 0x0 }
+  - { offsetInCU: 0x175, offset: 0x308, size: 0x8, addend: 0x0, symName: _bl_realloc, symObjAddr: 0x1258, symBinAddr: 0x100008038, symSize: 0x0 }
+  - { offsetInCU: 0x19F, offset: 0x332, size: 0x8, addend: 0x0, symName: _blob_ascii_fmt, symObjAddr: 0x1260, symBinAddr: 0x100008040, symSize: 0x0 }
+  - { offsetInCU: 0x27C, offset: 0x40F, size: 0x8, addend: 0x0, symName: _print_hexl, symObjAddr: 0x0, symBinAddr: 0x100002BD0, symSize: 0x194 }
+  - { offsetInCU: 0x33A, offset: 0x4CD, size: 0x8, addend: 0x0, symName: _blob_new, symObjAddr: 0x194, symBinAddr: 0x100002D64, symSize: 0x68 }
+  - { offsetInCU: 0x391, offset: 0x524, size: 0x8, addend: 0x0, symName: _blob_read, symObjAddr: 0x1FC, symBinAddr: 0x100002DCC, symSize: 0x58 }
+  - { offsetInCU: 0x3F9, offset: 0x58C, size: 0x8, addend: 0x0, symName: _blob_write, symObjAddr: 0x254, symBinAddr: 0x100002E24, symSize: 0xC4 }
+  - { offsetInCU: 0x468, offset: 0x5FB, size: 0x8, addend: 0x0, symName: _blob_insert, symObjAddr: 0x318, symBinAddr: 0x100002EE8, symSize: 0xF4 }
+  - { offsetInCU: 0x4EF, offset: 0x682, size: 0x8, addend: 0x0, symName: _blob_delete, symObjAddr: 0x40C, symBinAddr: 0x100002FDC, symSize: 0xA8 }
+  - { offsetInCU: 0x536, offset: 0x6C9, size: 0x8, addend: 0x0, symName: _blob_pack, symObjAddr: 0x4B4, symBinAddr: 0x100003084, symSize: 0x30 }
+  - { offsetInCU: 0x5A5, offset: 0x738, size: 0x8, addend: 0x0, symName: _blob_fmt, symObjAddr: 0x4E4, symBinAddr: 0x1000030B4, symSize: 0x19C }
+  - { offsetInCU: 0x6B6, offset: 0x849, size: 0x8, addend: 0x0, symName: _blob_unpack, symObjAddr: 0x680, symBinAddr: 0x100003250, symSize: 0x100 }
+  - { offsetInCU: 0x758, offset: 0x8EB, size: 0x8, addend: 0x0, symName: _blob_seek, symObjAddr: 0x780, symBinAddr: 0x100003350, symSize: 0x44 }
+  - { offsetInCU: 0x79B, offset: 0x92E, size: 0x8, addend: 0x0, symName: _blob_index, symObjAddr: 0x7C4, symBinAddr: 0x100003394, symSize: 0x7C }
+  - { offsetInCU: 0x7F1, offset: 0x984, size: 0x8, addend: 0x0, symName: _blob_rindex, symObjAddr: 0x840, symBinAddr: 0x100003410, symSize: 0x64 }
+  - { offsetInCU: 0x847, offset: 0x9DA, size: 0x8, addend: 0x0, symName: _blob_print, symObjAddr: 0x8A4, symBinAddr: 0x100003474, symSize: 0x68 }
+  - { offsetInCU: 0x8AF, offset: 0xA42, size: 0x8, addend: 0x0, symName: _blob_sprint, symObjAddr: 0x90C, symBinAddr: 0x1000034DC, symSize: 0x8 }
+  - { offsetInCU: 0x912, offset: 0xAA5, size: 0x8, addend: 0x0, symName: _blob_free, symObjAddr: 0x914, symBinAddr: 0x1000034E4, symSize: 0x44 }
+  - { offsetInCU: 0x95A, offset: 0xAED, size: 0x8, addend: 0x0, symName: _blob_register_alloc, symObjAddr: 0x958, symBinAddr: 0x100003528, symSize: 0x34 }
+  - { offsetInCU: 0x9AF, offset: 0xB42, size: 0x8, addend: 0x0, symName: _blob_register_pack, symObjAddr: 0x98C, symBinAddr: 0x10000355C, symSize: 0x2C }
+  - { offsetInCU: 0xA4A, offset: 0xBDD, size: 0x8, addend: 0x0, symName: _fmt_D, symObjAddr: 0x9B8, symBinAddr: 0x100003588, symSize: 0x138 }
+  - { offsetInCU: 0xB7A, offset: 0xD0D, size: 0x8, addend: 0x0, symName: _fmt_H, symObjAddr: 0xAF0, symBinAddr: 0x1000036C0, symSize: 0x140 }
+  - { offsetInCU: 0xCAA, offset: 0xE3D, size: 0x8, addend: 0x0, symName: _fmt_b, symObjAddr: 0xC30, symBinAddr: 0x100003800, symSize: 0x10C }
+  - { offsetInCU: 0xDAB, offset: 0xF3E, size: 0x8, addend: 0x0, symName: _fmt_c, symObjAddr: 0xD3C, symBinAddr: 0x10000390C, symSize: 0x120 }
+  - { offsetInCU: 0xEDF, offset: 0x1072, size: 0x8, addend: 0x0, symName: _fmt_d, symObjAddr: 0xE5C, symBinAddr: 0x100003A2C, symSize: 0x11C }
+  - { offsetInCU: 0x1011, offset: 0x11A4, size: 0x8, addend: 0x0, symName: _fmt_h, symObjAddr: 0xF78, symBinAddr: 0x100003B48, symSize: 0x11C }
+  - { offsetInCU: 0x1143, offset: 0x12D6, size: 0x8, addend: 0x0, symName: _fmt_s, symObjAddr: 0x1094, symBinAddr: 0x100003C64, symSize: 0x168 }
+...
